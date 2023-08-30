@@ -1,0 +1,15 @@
+Thu Apr 08 13:14:51 2021 [NOTICE,flashex] start flashex v. 2.7.4.2
+Thu Apr 08 13:14:51 2021 [INFO,flashex] Current dir is 'X:\data\'
+Thu Apr 08 13:14:51 2021 [NOTICE,flashex.server.init] Listening on 127.0.0.1:1668
+Thu Apr 08 13:14:51 2021 [INFO,flashex.server.process.listener] accepted connection from 127.0.0.1:49216
+Thu Apr 08 13:14:51 2021 [ERROR,flashex.server.process.client.cmd.regQueryValue] RegOpenKeyEx('SOFTWARE\EPiU') error 2
+Thu Apr 08 13:14:51 2021 [ERROR,flashex.server.process.client.cmd.regQueryValue] RegOpenKeyEx('SOFTWARE\EPiU') error 2
+Thu Apr 08 13:14:51 2021 [ERROR,flashex.server.process.client.cmd.makeDir] Client 127.0.0.1:49216: cmd 'makeDir': directory 'X:\data\fscommand\data\BCA\' ERROR: 'makeDirectory 'X:\data\fscommand\data\BCA\' error (13)'
+Thu Apr 08 13:14:53 2021 [ERROR,flashex.server.process.client.cmd.write] Client 127.0.0.1:49216: cmd 'write': fail (2) to open file 'X:\data\fscommand\data\BCA\epiu_int.cs'
+Thu Apr 08 13:14:54 2021 [ERROR,flashex.server.process.client.cmd.listDir] Client 127.0.0.1:49216: cmd 'listDir': ERROR: 'FindFirstFile 'X:\data\fscommand\data\BCA\' error 21079089 (3)'
+Thu Apr 08 13:15:18 2021 [INFO,flashex.server.process.client] SHUTDOWN command was received
+Thu Apr 08 13:15:18 2021 [INFO,flashex.server.deinit.client] Deinit clients sockets...
+Thu Apr 08 13:15:18 2021 [INFO,flashex.server.closesocket] Closing socket 127.0.0.1:49216
+Thu Apr 08 13:15:18 2021 [INFO,flashex.server.deinit.listener] Deinit listener sockets...
+Thu Apr 08 13:15:18 2021 [INFO,flashex.server.closesocket] Closing socket 127.0.0.1:1668
+Thu Apr 08 13:15:18 2021 [NOTICE,flashex] stop service
